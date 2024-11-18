@@ -4,7 +4,7 @@ import csv
 
 INPUT_FILENAME = "input.csv"
 OUTPUT_FILENAME = "output.json"
-li = ['longitude','latitude','housing_median_age','total_rooms','total_bedrooms','population','households','median_income','median_house_value']
+
 gl=[]
 def task() -> None:
     with open(INPUT_FILENAME, 'r') as file:
