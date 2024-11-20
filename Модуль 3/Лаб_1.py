@@ -1,9 +1,10 @@
 # TODO Напишите функцию для поиска индекса товара
 
 def found(s, i):
-    for k in range(0,len(s)):
-        if s[k]==i:
-            return k
+    enu= enumerate(s)
+    for k in enu:
+        if k[1]==i:
+            return k[0]
 
     return None
 
